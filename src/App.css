@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 #project-list {
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -6,6 +8,8 @@
 }
 
 body {
-  background-color: #F3F5F9;
-  color: #020301;
+  margin: 0;
+  padding: 0;
+  font-family: 'Syne Mono', monospace;
+  background-color: #D3D3CB;
 }
