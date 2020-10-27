@@ -4,6 +4,7 @@ import "./Nav.css";
 import home from "./School.svg";
 import home1 from "./Library.svg";
 import home2 from "./Notes.svg";
+import userImage from "./sitting-1.svg";
 
 function Nav() {
     return (
@@ -57,11 +58,16 @@ function Nav() {
             </div>
         
             <div className="user">
-                <div className="user-img"></div>
-                Useragaghagajetaaega
+                <div className="user-img">
+                    <img src={ userImage }/>
+                </div>
+
+                <div className="user-name">
+                    User Name
+                </div>
+                
             </div>
         </div>
     )
 }
-
 export default Nav;
