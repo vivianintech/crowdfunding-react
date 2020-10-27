@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.project-space {
+  display: flex;
+  direction: column;
+  margin: 1%;
+  justify-content: center;
+}
+
 #project-list {
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  column-gap: 10px;
-  row-gap: 10px;
+  width: 30%;
 }
 
 body {
-  background-color: #F3F5F9;
-  color: #020301;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #EEEDE7;
 }
